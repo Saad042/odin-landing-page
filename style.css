@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .flex-container {
   display: flex;
 }
@@ -6,7 +10,11 @@
   flex-basis: 80%;
 }
 
-.flex-center {
+.fb-70 {
+  flex-basis: 70%;
+}
+
+.justify-content-center {
   justify-content: center;
 }
 
@@ -14,8 +22,12 @@
   margin-right: auto;
 }
 
-.fg-auto {
+.fg-10 {
   gap: 10px;
+}
+
+.fg-24 {
+  gap: 24px
 }
 
 .hero-secondary-text,
@@ -58,8 +70,8 @@
   flex: 1;
 }
 
-.header-image {
-  max-width: 75%;
+img {
+  max-width: 100%;
 }
 
 .nav-heading,
@@ -83,4 +95,20 @@ button {
   border: transparent;
   border-radius: 5px;
   padding: 8px 24px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+}
+
+.w-70 {
+  width: 70%;
+  margin: auto;
+}
+
+.information-text {
+  text-align: center;
 }
