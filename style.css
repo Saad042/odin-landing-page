@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: Roboto;
 }
 
 .flex-container {
@@ -16,6 +17,14 @@ body {
 
 .justify-content-center {
   justify-content: center;
+}
+
+.justify-content-sa {
+  justify-content: space-around;
+}
+
+.align-self-center {
+  align-self: center;
 }
 
 .mr-auto {
@@ -36,6 +45,7 @@ body {
   font-size: 18px;
 }
 
+footer,
 .nav-header {
   background-color: #1F2937;
 }
@@ -52,6 +62,22 @@ body {
 
 .pt-32 {
   padding-top: 32px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.pt-64 {
+  padding-top: 64px;
+}
+
+.pb-64 {
+  padding-bottom: 64px;
+}
+
+.pt-128 {
+  padding-top: 128px;
 }
 
 .pb-128 {
@@ -87,14 +113,18 @@ img {
 button,
 .call-to-action {
   background-color: #3882F6;
+  border-radius: 12px;
 }
 
 button {
   color: white;
   font-weight: bold;
   border: transparent;
-  border-radius: 5px;
-  padding: 8px 24px;
+  padding: 8px 32px;
+}
+
+.call-to-action button {
+  border: solid white;
 }
 
 .information-header {
@@ -109,6 +139,51 @@ button {
   margin: auto;
 }
 
+.w-80 {
+  width: 80%;
+  margin: auto;
+}
+
 .information-text {
   text-align: center;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 0px;
+}
+
+.quote-subtext {
+  font-weight: bold;
+  text-align: end;
+  margin-top: -0;
+}
+
+.call-to-action p {
+  margin: 0px;
+}
+
+.call-to-action-heading {
+  font-weight: bolder;
+}
+
+footer,
+.call-to-action-heading,
+.call-to-action-text {
+  color: white;
+}
+
+.call-to-action-text {
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
 }
